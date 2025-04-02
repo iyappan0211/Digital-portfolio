@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Digital Portfolio</title>
+
+    
+
+
+</head>
+
+</head>
+<body>
+    <header>
+        <div class="header-content">
+        <h1>IYAPPAN G</h1>
+        <img src="IYAPPAN.jpg"alt="Profile Picture" class="picture-content" >
+        <h4>STUDENT | ETHICAL HACKER</h4>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section id="about">
+        <div class="section-content">
+        <h2>About Me</h2>
+        <p>I’m Iyappan G, a second-year student at Urumu Dhanalakshmi College, passionate about learning and growth. Constantly exploring new opportunities to enhance my skills and knowledge</p>
+    </div>
+    </section>
+
+    <section id="Education">
+        <h2>Education</h2>
+        <p>I am Currently Pursuing 2rd Year BCA computer Application .</p>
+        <P>I done my School in Boiler plant Boys higher Secondary School .</P>
+    </section>
+    
+    <section id="Skills">
+        <h2>Skills</h2>
+        <p>Android Application Developing</p>
+        <p>Java</p>
+        <p>Database Management</p>
+        <p>HTML and CSS</p>
+    </section>
+
+
+
+    <section id="Resume">
+        <center>
+        <div class="section-content">
+        <h2>Resume</h2>
+        <a href="Iyyappan_G_Resume.pdf" class="download-btn">Download Resume</a>
+    </center>
+</div>
+    </section>
+
+
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Mobile : +91 9597079864</p>
+        <p>You can reach me at <a href="udcu23a1034@gmail.com">udcu23a1034@gmail.com</a></p>
+        <p>location : TRICHY</p>
+    </section>
+
+
+
+    <footer>
+
+
+
+
+        <center>
+        <p>&copy; 2025 IYAPPAN G</p>
+    </center>
+
+    </footer>
+
+
+
+
+
+<script>
+
+
+
+
+// Smooth scrolling for navigation links
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
